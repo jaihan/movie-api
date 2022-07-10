@@ -1,7 +1,4 @@
 
-# movie-api
-
-
 ## Description
 
  Creating a movie rest api.
