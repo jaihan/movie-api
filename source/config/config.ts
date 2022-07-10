@@ -17,15 +17,13 @@ const MONGO_PASSWORD = process.env.MONGO_PASSWORD || 'movie';
 const MONGO_HOST = process.env.MONGO_HOST || `localhost`;
 const MONGO_DB = process.env.MONGO_DB || `movieDB`;
 
-
 const MONGO = {
     host: MONGO_HOST,
     password: MONGO_PASSWORD,
     username: MONGO_USERNAME,
     db: MONGO_DB,
     options: MONGO_OPTIONS,
-    // url: `mongodb+srv://${MONGO_USERNAME}:${MONGO_PASSWORD}@${MONGO_HOST}/${MONGO_DB}?retryWrites=true&w=majority`
-    url: `mongodb+srv://movie:superpassword@cluster0.ulxv5.mongodb.net/movieDB?retryWrites=true&w=majority`
+    url: `mongodb+srv://${MONGO_USERNAME}:${MONGO_PASSWORD}@${MONGO_HOST}/${MONGO_DB}?retryWrites=true&w=majority`
 };
 
 const SERVER_HOSTNAME = process.env.SERVER_HOSTNAME || 'localhost';
@@ -51,7 +49,4 @@ const config = {
 
 export default config;
 
-// export const MONGO_USERNAME="movie";
-// export const MONGO_PASSWORD="iGsxpfClfyHxyXlx";
-// export const MONGO_HOST="cluster0.zz1nu.mongodb.net";
-// export const MONGO_DB="movieDB";
+
