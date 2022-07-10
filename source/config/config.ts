@@ -25,7 +25,7 @@ const MONGO = {
     db: MONGO_DB,
     options: MONGO_OPTIONS,
     // url: `mongodb+srv://${MONGO_USERNAME}:${MONGO_PASSWORD}@${MONGO_HOST}/${MONGO_DB}?retryWrites=true&w=majority`
-    url: "mongodb+srv://movie:ywAVBUe2lQiIAFJx@cluster0.gbcbi.mongodb.net/movieDB?retryWrites=true&w=majority"
+    url: "mongodb+srv://movie:YYYKVbmu0iPVYcCR@cluster0.gbcbi.mongodb.net/movieDB?retryWrites=true&w=majority"
 };
 
 const SERVER_HOSTNAME = process.env.SERVER_HOSTNAME || 'localhost';
