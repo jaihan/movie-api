@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 # movie-api
-=======
+
 
 ## Description
 
@@ -35,7 +35,12 @@ Mongo database connection options are shown in the following table:
 | -------- | ----------- 
 | Host     | localhost   |
 | Port     | 27017       |
-| Database | movieDB     |  
+| Database | movieDB     |
+
+or 
+
+Currently in this project integrate with cloud database [for more details](https://www.mongodb.com/atlas/database).
+
 
 ## Running the app
 
@@ -44,4 +49,3 @@ Mongo database connection options are shown in the following table:
 $ yarn start
 ```
 
->>>>>>> e3901e6dfaf47de55f1e54d51dfddb8250d0e24a
